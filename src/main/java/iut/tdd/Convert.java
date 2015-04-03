@@ -1,7 +1,5 @@
 package iut.tdd;
 
-import java.util.HashMap;
-import java.util.Map;
 
 public class Convert {
 	static String [] chiffre ={"0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","20"};
@@ -14,6 +12,7 @@ public class Convert {
 			if (chiffre[i].equals(input)){
 				return chiffreenlettre[i];
 			}
+			
 		}
 		
 		return null;

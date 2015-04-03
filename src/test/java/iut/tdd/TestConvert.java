@@ -57,7 +57,25 @@ public class TestConvert {
 	public void test_num2text_seize () {
 		Assert.assertEquals("seize", Convert.num2text("16"));
 	}@Test
-	public void test_num2text_vingt () {
+	public void test_num2text_vingt2 () {
+		Assert.assertEquals("vingt", Convert.num2text("20"));
+	}@Test
+	public void test_num2text_vingt3 () {
+		Assert.assertEquals("vingt", Convert.num2text("20"));
+	}@Test
+	public void test_num2text_vingt4 () {
+		Assert.assertEquals("vingt", Convert.num2text("20"));
+	}@Test
+	public void test_num2text_vingt5 () {
+		Assert.assertEquals("vingt", Convert.num2text("20"));
+	}@Test
+	public void test_num2text_vingt6 () {
+		Assert.assertEquals("vingt", Convert.num2text("20"));
+	}@Test
+	public void test_num2text_vingt7 () {
+		Assert.assertEquals("vingt", Convert.num2text("20"));
+	}@Test
+	public void test_num2text_vingt8 () {
 		Assert.assertEquals("vingt", Convert.num2text("20"));
 	}
 }
